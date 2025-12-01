@@ -8,22 +8,67 @@
 }
 
 body{
-    background-color: skyblue;
+    background-color: white;
 }
 h1{
     text-align: center;
 }
 label{
     font-weight: 800;
-    color: darkred;
+    color:darkred;
 }
 button{
-    background-color: darkred;
+    background-color: orange;
     border: none;
     padding: 20px 20px;
     border-radius: 10px;
     cursor: pointer;
+    
+}
+.hero-section {
+    border: 5px solid; color: red;
+    background-image: url(./images/download.jpg);
+    height: 90vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* background-position: ; */
+    padding: 120px 60px ;
+}
+
+.hero-section > p {
+    font-size: 28px;
+    width: 600px;
+    /* border:1px solid red; */
+    /* margin: 120px 60px; */
+
+}
+.hero-section > p {
+    font-size: 27px;
+    width: 600;
+}
+
+.hero-section > button {
+    margin-top: 20px;
+    padding: 15px 40px;
+    border: none;
+    background-color: yellow;
+    border-radius: 8px;
+    box-shadow: 3px 5px 8px darkgray;
+    cursor: pointer;
 }
 
 
-}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
